@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+    data-auto-a11y="true"
+    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <h1>
+        Hello Tables
+    </h1>
+
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Expenses</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$500</td>
+            <td rowspan="3">$5000</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$800</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td>$300</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>email</th>
+            <th colspan="2">Phone</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Eleni</td>
+            <td>eleni@eleni.com</td>
+            <td>0123</td>
+            <td>1234567</td>
+            </tr>
+            <tr>
+            <td>George</td>
+            <td>george@george.com</td>
+            <td colspan="2">0123456789</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table id="calendar">
+        <thead>
+            <tr>
+                <th colspan="7">MAY 2020</th>
+            </tr>
+            <tr>
+                <th>SUN</th>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+                <th>SAT</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </tbody>
+
+    <hr>
+
+    <table id="pricing">
+        <thead>
+            <tr>
+                <th><p>S</p></th>
+                <th><p>M</p></th>
+                <th><p>L</p></th>
+                <th><p>XL</p></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Small</td>
+                <td>Medium</td>
+                <td>Large</td>
+                <td>Xtra-Large</td>
+            </tr>
+            <tr>
+                <td>49</td>
+                <td>149</td>
+                <td>499</td>
+                <td>999</td>
+            </tr>
+            <tr>
+                <td>$/month</td>
+                <td>$/month</td>
+                <td>$/month</td>
+                <td>$/month</td>
+            </tr>
+            <tr>
+                <td><hr></td>
+                <td><hr></td>
+                <td><hr></td>
+                <td><hr></td>
+            </tr>
+            <tr>
+                <td>5.000</td>
+                <td>25.000</td>
+                <td>100.000</td>
+                <td>250.000</td>
+            </tr>
+            <tr>
+                <td>credit/month</td>
+                <td>credit/month</td>
+                <td>credit/month</td>
+                <td>credit/month</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">Inventory</th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Small</th>
+                <th>Medium</th>
+                <th>Large</th>
+                <th>Extralarge</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>T-Shirts</th>
+                <td>20</td>
+                <td>60</td>
+                <td>45</td>
+                <td>67</td>
+            </tr>
+            <tr>
+                <th>Sweatshirts</th>
+                <td>33</td>
+                <td>66</td>
+                <td>66</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <th>Tank-tops</th>
+                <td>334</td>
+                <td>55</td>
+                <td>-</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Hoodies</th>
+                <td>45</td>
+                <td>66</td>
+                <td>23</td>
+                <td>67</td>
+            </tr>
+            <tr>
+                <th>Crop-tops</th>
+                <td>23</td>
+                <td>45</td>
+                <td>78</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table id="packages">
+        <thead>
+            <tr>
+                <th></th>
+                <td></td>
+                <th>STARTER</th>
+                <th>STANDARD</th>
+                <th>BUSINESS</th>
+                <th>ULTIMATE</th>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <th><sup>€</sup> 10 <small>/mo</small></th>
+                <th><sup>€</sup> 29 <small>/mo</small></th>
+                <th><sup>€</sup> 59 <small>/mo</small></th>
+                <th><sup>€</sup> 100 <small>/mo</small></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Supported projects</th>
+                <td class="empty"></td>
+                <td>10 Projects</td>
+                <td>5 Projects</td>
+                <td>10 Projects</td>
+                <td>Unlimited Projects</td>
+            </tr>
+            <tr>
+                <th>Amount of space</th>
+                <td class="empty"></td>
+                <td>32 GB Storage</td>
+                <td>15 GB Storage</td>
+                <td>20 GB Storage</td>
+                <td>Unlimited Storage</td>
+            </tr>
+            <tr>
+                <th>Supported Users</th>
+                <td class="empty"></td>
+                <td>Unlimited users</td>
+                <td>Limited users</td>
+                <td>Unlimited users</td>
+                <td>Unlimited users</td>
+            </tr>
+            <tr>
+                <th>Allowed bandwidth</th>
+                <td class="empty"></td>
+                <td>15 GB Bandwidth</td>
+                <td>10 GB Bandwidth</td>
+                <td>20 GB Bandwidth</td>
+                <td>100 GB Bandwidth</td>
+            </tr>
+            <tr>
+                <th>Security enabled</th>
+                <td class="empty"></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <th>24 hours support</th>
+                <td class="empty"></td>
+                <td>Enhanced security</td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <th>Retina display</th>
+                <td class="empty"></td>
+                <td>Retina display ready</td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <th>User rating</th>
+                <td class="empty"></td>
+                <td>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </td>
+                <td>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </td>
+                <td>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </td>
+                <td>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td class="empty"></td>
+                <td class="light-grey">
+                    <button>SIGN UP</button>
+                </td>
+                <td>
+                    <button>SIGN UP</button>
+                </td>
+                <td>
+                    <button>SIGN UP</button>
+                </td>
+                <td>
+                    <button>SIGN UP</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

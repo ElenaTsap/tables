@@ -1,0 +1,280 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 120px
+}
+
+table {
+    border: 2px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+#calendar{
+    border-collapse: collapse;
+}
+#calendar > thead > tr:first-of-type > th{
+    font-size: 40px;
+    background-color: chocolate;
+}
+
+#calendar > thead > tr:nth-of-type(2) > th {
+    font-size: 22px;
+    padding: 4px;
+    background-color: darkgray;
+}
+
+#calendar > tbody > tr > td {
+    font-size: 14px;
+    width: 70px;
+    height: 50px;
+    vertical-align: top;
+}
+
+hr {
+    margin: 40px 0px;
+}
+
+/* pricing project */
+
+#pricing {
+    margin: auto;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pricing > thead > tr > th {
+    border: none;
+}
+
+
+#pricing > thead > tr > th > p {
+    border-radius: 50%;
+    padding: 5px;
+    width: 15px;
+    margin: auto;
+    margin-bottom: -15px;
+    font-weight: 300;
+    color: white;
+    font-size: 12px;
+}
+
+#pricing > thead > tr > th:nth-of-type(1) > p {
+    background: #48cae4;
+}
+
+#pricing > thead > tr > th:nth-of-type(2) > p {
+    background: #83c5be;
+}
+
+#pricing > thead > tr > th:nth-of-type(3) > p {
+    background: #7400b8;
+}
+
+#pricing > thead > tr > th:nth-of-type(4) > p {
+    background: #9d4edd;
+}
+
+#pricing > tbody > tr > td {
+    width: 100px;
+    text-align: center;
+    border: none;
+
+    border-left: 1px solid rgb(202, 199, 199);
+}
+
+#pricing > tbody > tr > td:nth-last-of-type(1) {
+    border-right: 1px solid rgb(202, 199, 199);
+}
+
+#pricing > tbody > tr:nth-of-type(1) > td {
+    border-top: 1px solid rgb(202, 199, 199);
+}
+
+#pricing > tbody > tr:nth-last-of-type(1) > td {
+    border-bottom: 1px solid rgb(202, 199, 199);
+}
+
+#pricing > tbody > tr:nth-of-type(1) {
+    font-size: 12px;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+#pricing > tbody > tr:nth-of-type(2) {
+    font-size: 30px;
+}
+
+#pricing > tbody > tr:nth-of-type(3) {
+    font-size: 12px;
+}
+
+#pricing > tbody > tr:nth-of-type(4) > td > hr {
+    width: 80px;
+    border: none;
+    border-top: 1px solid rgb(202, 199, 199);
+}
+
+#pricing > tbody > tr:nth-of-type(5) {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#pricing > tbody > tr:nth-of-type(6) {
+    font-size: 10px;
+    height: 30px;
+    vertical-align: top;
+}
+
+/* packages project */
+
+#packages {
+    border-collapse: collapse;
+}
+
+table {
+    border: none;
+}
+
+th, td {
+    border: none;
+}
+
+#packages > thead {
+    color: white;
+}
+
+#packages > thead > tr:nth-of-type(1) > th{
+    height: 40px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#packages > thead > tr:nth-of-type(2) {
+    height: 120px;
+    font-size: 48px;
+}
+
+#packages > thead:nth-of-type(2) > tr > th {
+    font-weight: 600;
+}
+
+#packages > thead > tr:nth-of-type(2) > th > sup, #packages > thead > tr:nth-of-type(2) > th > small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* first row */
+#packages > thead > tr:nth-of-type(1) > th:nth-of-type(2){
+    background-color: #357b9c;
+}
+
+#packages > thead > tr:nth-of-type(1) > th:nth-of-type(3){
+    background-color: #069263;
+}
+
+#packages > thead > tr:nth-of-type(1) > th:nth-of-type(4){
+    background-color: #db6143;
+    
+}
+
+#packages > thead > tr:nth-of-type(1) > th:nth-of-type(5){
+    background-color: #1b1f20;
+}
+
+/* second row */
+#packages > thead > tr:nth-of-type(2) > th:nth-of-type(2){
+    background-color: #66bff3;
+}
+
+#packages > thead > tr:nth-of-type(2) > th:nth-of-type(3){
+    background-color: #69c0a3;
+}
+
+#packages > thead > tr:nth-of-type(2) > th:nth-of-type(4){
+    background-color: #fc8d71;
+}
+
+#packages > thead > tr:nth-of-type(2) > th:nth-of-type(5){
+    background-color: #333738;
+}
+
+
+/*  add white border  */
+#packages > thead > tr > th {
+    border-left: 4px solid white;
+}
+
+#packages > tbody > tr > td {
+    text-align: center;
+    font-weight: 300;
+    width: 200px;
+    border-left: 4px solid white;
+}
+
+#packages > tbody > tr {
+    height: 50px;
+}
+
+#packages > tbody > tr > th:nth-of-type(1) {
+    width: 240px;
+    text-align: right;
+    font-weight: 300;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+/* remove the border from the last row */
+#packages > tbody > tr:nth-of-type(9) > th {
+    border:none;
+}
+
+#packages > tbody > tr > .empty {
+    width: 40px;
+}
+
+#packages > tbody > tr:nth-of-type(even) > td:nth-of-type(n+2) {
+    background-color: rgb(233, 233, 233);
+}
+
+#packages > tbody > tr:nth-of-type(odd) > td:nth-of-type(n+2) {
+    background-color: rgb(218, 218, 218);
+}
+
+/* all this thing is to make the last row light grey wtf */
+#packages > tbody > tr:nth-of-type(9) > td:nth-of-type(2), #packages > tbody > tr:nth-of-type(9) > td:nth-of-type(2), #packages > tbody > tr:nth-of-type(9) > td:nth-of-type(2), #packages > tbody > tr:nth-of-type(9) > td:nth-of-type(3), #packages > tbody > tr:nth-of-type(9) > td:nth-of-type(2), #packages > tbody > tr:nth-of-type(9) > td:nth-of-type(4), #packages > tbody > tr:nth-of-type(9) > td:nth-of-type(2), #packages > tbody > tr:nth-of-type(9) > td:nth-of-type(5) {
+    background-color:rgb(233, 233, 233);
+}
+
+#packages > tbody > tr > .empty {
+    width: 40px;
+}
+
+
+#packages > tbody > tr:nth-of-type(9) > td > button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    background-color: grey;
+    border: none;
+}
+
+#packages > tbody > tr:nth-of-type(9) > td:nth-of-type(4) > button {
+    background-color: #db6143;
+}
+
+.fa-check {
+    color: green;
+}
+.fa-times {
+    color: red;
+}
+
+.fa-star {
+    color: #69c0a3;
+} 
+
+tbody > tr:nth-of-type(8) > td:nth-of-type(3) > .fa-star:nth-of-type(4), tbody > tr:nth-of-type(8) > td:nth-of-type(3) > .fa-star:nth-of-type(5)  {
+    color: grey;
+}
